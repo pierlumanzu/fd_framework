@@ -53,8 +53,6 @@ class FD(GradientBasedAlgorithm, ABC):
         p_list = p_list[efficient_points_idx, :]
         self.show_figure(p_list, f_list)
 
-        input()
-
         for idx_p, p in enumerate(p_list):
             d_p, theta_p = self._direction_solver.compute_direction(problem, problem.evaluate_functions_jacobian(p), p)
             self.add_to_stopping_condition_current_value('max_f_evals', problem.n)

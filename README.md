@@ -22,7 +22,7 @@ TODO ArXiv
 
 In order to execute the code, you need an [Anaconda](https://www.anaconda.com/) environment and the Python packages [nsma](https://pypi.org/project/nsma/), [pymoo](https://pypi.org/project/pymoo/) installed in it. For a detailed documentation of the nsma package we refer the reader to its [GitHub repository](https://github.com/pierlumanzu/nsma), while for the pymoo package we refer to the [website](https://pymoo.org/).
 
-For the package installation, open a terminal (Anaconda Prompt for Windows users) in the project root folder and execute the following command. Note that a Python version 3.10.6 or higher is required.
+For the packages installation, open a terminal (Anaconda Prompt for Windows users) in the project root folder and execute the following commands. Note that a Python version 3.10.6 or higher is required.
 
 ```
 pip install nsma

@@ -10,12 +10,22 @@
 
 Implementation of the FD framework proposed in 
 
-TODO ArXiv
+[Lapucci, M., Mansueto, P. & Pucci D., Effective Front-Descent Algorithms with Convergence Guarantees. arXiv pre-print (2024)](
+https://arxiv.org/abs/2405.08450)
 
 If you have used our code for research purposes, please cite the publication mentioned above.
 For the sake of simplicity, we provide the Bibtex format:
 
-TODO ArXiv
+```
+@misc{lapucci2024effective,
+  title={Effective Front-Descent Algorithms with Convergence Guarantees}, 
+  author={Matteo Lapucci and Pierluigi Mansueto and Davide Pucci},
+  year={2024},
+  eprint={2405.08450},
+  archivePrefix={arXiv},
+  primaryClass={math.OC}
+}
+```
 
 ### Main Dependencies Installation
 
@@ -42,7 +52,7 @@ In ```parser_management.py``` you can find all the possible arguments. Given a t
 
 If you have any question, feel free to contact us:
 
-[Pierluigi Mansueto](https://webgol.dinfo.unifi.it/pierluigi-mansueto/), [Davide Pucci](https://scholar.google.com/citations?user=mc70QUkAAAAJ&hl=it&oi=ao)<br>
+[Pierluigi Mansueto](https://webgol.dinfo.unifi.it/pierluigi-mansueto/), [Davide Pucci](https://webgol.dinfo.unifi.it/davide-pucci/)<br>
 Global Optimization Laboratory ([GOL](https://webgol.dinfo.unifi.it/))<br>
 University of Florence<br>
 Email: pierluigi dot mansueto at unifi dot it, davide dot pucci at unifi dot it

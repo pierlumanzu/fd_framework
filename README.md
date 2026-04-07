@@ -10,20 +10,24 @@
 
 Implementation of the FD framework proposed in 
 
-[Lapucci, M., Mansueto, P. & Pucci D., Effective Front-Descent Algorithms with Convergence Guarantees. arXiv pre-print (2024)](
-https://arxiv.org/abs/2405.08450)
+[Lapucci, M., Mansueto, P. & Pucci D., Effective Front-Descent Algorithms with Convergence Guarantees. SIAM Journal on Optimization (2026)](
+https://doi.org/10.1137/25M1726856)
 
 If you have used our code for research purposes, please cite the publication mentioned above.
 For the sake of simplicity, we provide the Bibtex format:
 
 ```
-@misc{lapucci2024effective,
-  title={Effective Front-Descent Algorithms with Convergence Guarantees}, 
-  author={Matteo Lapucci and Pierluigi Mansueto and Davide Pucci},
-  year={2024},
-  eprint={2405.08450},
-  archivePrefix={arXiv},
-  primaryClass={math.OC}
+@article{LapucciFD2026,
+    author = {Lapucci, Matteo and Mansueto, Pierluigi and Pucci, Davide},
+    title = {Effective Front-Descent Algorithms with Convergence Guarantees},
+    journal = {SIAM Journal on Optimization},
+    volume = {36},
+    number = {2},
+    pages = {597-625},
+    year = {2026},
+    doi = {10.1137/25M1726856},
+    URL = {https://doi.org/10.1137/25M1726856},
+    eprint = {https://doi.org/10.1137/25M1726856}
 }
 ```
 
@@ -52,7 +56,7 @@ In ```parser_management.py``` you can find all the possible arguments. Given a t
 
 If you have any question, feel free to contact us:
 
-[Pierluigi Mansueto](https://webgol.dinfo.unifi.it/pierluigi-mansueto/), [Davide Pucci](https://webgol.dinfo.unifi.it/davide-pucci/)<br>
+[Pierluigi Mansueto](https://webgol.dinfo.unifi.it/pages/pierluigi_mansueto/), [Davide Pucci](https://webgol.dinfo.unifi.it/pages/davide_pucci/)<br>
 Global Optimization Laboratory ([GOL](https://webgol.dinfo.unifi.it/))<br>
 University of Florence<br>
 Email: pierluigi dot mansueto at unifi dot it, davide dot pucci at unifi dot it
